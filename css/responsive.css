@@ -1,0 +1,78 @@
+/* Kestrel Build — responsive rules (v3, compact) */
+@media(max-width:1180px){.xi.on{flex-grow:4.4}}
+@media(max-width:1060px){
+.lk>a:not(.btn){padding:8px 9px;font-size:.8rem}.lk>a:not(.btn) .ico{display:none}
+.sh{grid-template-columns:repeat(2,1fr)}
+.vlg,.qag,.sfg{grid-template-columns:repeat(2,1fr)}
+.fg{grid-template-columns:repeat(3,1fr)}.fg>div:first-child{grid-column:1/-1}.ft p{max-width:520px}
+}
+@media(max-width:960px){
+.lk{display:none}.bg{display:block}
+.hero{padding:86px 0 66px;min-height:0}
+.hero-g,.ph-g,.two,.cta-in,.ctg{grid-template-columns:1fr}
+.hv{margin-top:8px;padding:0 10px}.fc.f1{left:-4px}.fc.f2{right:-2px}.ring{right:-4px;top:-26px}
+.phc{justify-self:start}
+.cm{max-width:520px;margin:0 auto;width:100%}
+.two>.cm{order:2}
+.sg{grid-template-columns:repeat(2,1fr)}
+.hd{flex-direction:column;align-items:flex-start;gap:8px}
+.pm-in{grid-template-columns:1fr;overflow:auto}.pm .im{min-height:220px}
+.g2,.tmg{grid-template-columns:1fr}
+.pf{grid-template-rows:none;grid-auto-rows:220px;gap:12px}
+.pf .pc:nth-child(n){grid-row:auto;grid-column:span 6}
+.pf .pc:nth-child(1),.pf .pc:nth-child(4){grid-column:1/-1}
+.pg{grid-auto-rows:210px;gap:12px}
+.pg .pc{grid-column:span 6!important;grid-row:auto!important}
+.pg .pc:last-child:nth-child(odd){grid-column:span 12!important}
+.cr{order:0}
+.cta-act{clip-path:polygon(0 24px,100% 0,100% 100%,0 100%);padding:44px clamp(20px,3vw,36px) 22px}
+}
+@media(max-width:820px){
+/* vertical process flow: connector runs between nodes and stops at the last one */
+.flow{grid-template-columns:1fr;gap:12px}
+.fs{flex-direction:row;align-items:stretch;gap:14px}
+.nm{margin:0;flex:none}
+.fs:not(.end)::after{top:46px;left:22px;width:2px;height:calc(100% + 12px - 46px);transform-origin:50% 0}
+.js .flow:not(.in) .fs:not(.end)::after{transform:scaleY(0)}
+.fcd{border-radius:20px 20px 20px 6px!important}
+.fs:nth-child(even) .fcd:hover,.fcd:hover{border-radius:6px 20px 20px 20px!important}
+}
+@media(max-width:760px){
+/* services panels become a vertical accordion */
+.xp{flex-direction:column;height:auto;gap:8px}
+.xi{flex:none;height:78px;transition:height .7s var(--r),box-shadow .6s}
+.xi.on{height:340px}
+.xi>.ic,.xi.on>.ic{left:16px;top:16px;translate:0 0}
+.xt{writing-mode:horizontal-tb;rotate:0deg;left:76px;bottom:auto;top:26px;translate:0 0;font-size:1.25rem}
+.xc{width:100%;padding:0 18px 16px}
+}
+@media(max-width:700px){
+.fr{grid-template-columns:1fr}
+.ci{grid-template-columns:1fr 1fr}
+}
+@media(max-width:600px){
+.w{padding:0 16px}
+.sh,.sfg{grid-template-columns:1fr}
+.vlg,.qag{grid-template-columns:repeat(2,1fr);gap:10px}
+.vl,.vl:nth-child(even){padding:16px 12px 40px}.vl h3{font-size:1.1rem}.vl p{font-size:.8rem}.vl .n{display:none}
+.qa,.qa:nth-child(n){padding:16px 14px;border-radius:18px}.qa h3{font-size:1.1rem}.qa p{font-size:.8rem}.qa .n{display:none}
+.fg{grid-template-columns:1fr 1fr;gap:18px 14px}.fg>div:first-child,.fg>div:last-child{grid-column:1/-1}
+.pf{grid-auto-rows:200px}.pf .pc:nth-child(n){grid-column:1/-1}
+.pg{grid-auto-rows:200px}.pg .pc,.pg .pc:last-child:nth-child(odd){grid-column:span 12!important}
+.sg{gap:10px}.st{--m:11px;padding:12px;gap:10px}.st .ico{width:36px;height:36px;padding:9px}.st b{font-size:1.7rem}.st span{font-size:.72rem}
+.hero h1{font-size:2.2rem}.fc{display:none}.ring{width:72px;height:72px;top:-20px}
+.cm{height:290px}.stamp{width:72px;height:72px}
+.tm{grid-template-columns:1fr}
+.fm,.fm:hover{padding:18px 16px}
+.mapw,.mapw:hover{min-height:220px}
+.fbm{flex-direction:column}
+.lg small{display:none}
+.hc{border-radius:28px 8px 28px 8px}
+.phr{display:none}
+.vmc,.vmc:nth-child(2){padding:16px 18px 16px 22px}
+.row .btn{flex:1 1 150px}
+.ld{grid-template-columns:96px 1fr}.ld .po{height:120px;border-radius:48px 48px 12px 12px}.ld:hover .po{border-radius:48px 48px 12px 12px}
+.cta-in{border-radius:22px}
+}
+@media(max-width:480px){.ci{grid-template-columns:1fr}}
+@media(max-width:380px){.vlg,.qag{grid-template-columns:1fr}.btn{padding-left:18px}}
